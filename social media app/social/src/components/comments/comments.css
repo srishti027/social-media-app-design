@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(247, 244, 240);
+}
+.CommentFriendImg{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.iconstyle{
+    color: grey;
+}
+.heading{
+    display: flex;
+}
+.likeimg{
+    flex: 3;
+    margin: 6px 38px;
+
+}
+.commentimg{
+    flex: 4;
+    /* margin: 5px 15px;
+    margin-left: 2rem; */
+}
+.commenttex{
+    flex: 5;
+}
+.shareimg{
+    flex: 5.5;
+}
+.sharetext{
+    flex: 6;
+}
+.box1{
+    margin-top: 30px;
+    display: flex;
+}
+.box2{
+    margin-top: 25px;
+    display: flex;
+}
+.box3{
+    margin-top: 25px;
+    display: flex;
+}
+.box4{
+    margin-top: 25px;
+    display: flex;
+}
+.inputcommentText{
+    padding: 5px;
+    width: 31vw;
+    height: 7vh;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.inputcommentText:focus{
+    outline: none;
+}
+.postbtn{
+    margin-left: 10px;
+}
+.CommentFriendName{
+    font-weight: bolder;
+   margin-left: 61px;
+   margin-top: -3rem;
+}
+.commentmsg{
+    background-color: rgb(219, 212, 212);
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 58px;
+}
+.addcomment{
+    margin-top: 20px;
+}
+ul li {
+    list-style: none;
+}
+.details{
+    margin-top: 11px;
+    margin-left: 28px;
+}
+.detailsfor{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
